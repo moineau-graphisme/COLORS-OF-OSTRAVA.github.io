@@ -17,6 +17,6 @@ function load_js(){
             gif_img.style.display = "none";
             logo.style.opacity = "100%";
             displaying_logo_animation = false;
-        }, 1700);
+        }, 950);
     }
 }
