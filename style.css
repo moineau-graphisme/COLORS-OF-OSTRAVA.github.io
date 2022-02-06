@@ -109,10 +109,28 @@ color: rgb(255, 255, 255);}
 .bloc4 {
     grid-area: cellule4;
 }
-.bloc7 {
+.bloc5 {
     grid-area: cellule5;
-
 }
+.bloc6 {
+    grid-area: cellule6;
+}
+.bloc7 {
+    grid-area: cellule7;
+}
+.bloc8 {
+    grid-area: cellule8;
+}
+.bloc9 {
+    grid-area: cellule9;
+}
+.bloc10 {
+    grid-area: cellule10;
+}
+.bloc11 {
+    grid-area: cellule11;
+}
+
 section {
     display:flex;
     width:100%;
@@ -124,12 +142,12 @@ section {
     object-fit: cover;
 }
 #crop2 {
-    width:700px;
+    width:750px;
     height:350px;
     object-fit: cover;}
     #crop3 {
         width:350px;
-        height:700px;
+        height:750px;
         object-fit: cover;}
 #imgart{
 margin-left: 250px;
@@ -139,11 +157,27 @@ gap: 50px;
 grid-template-columns: 350px 350px 350px;
 grid-template-rows: 350px 350px 350px;
 grid-template-areas:
-    "cellule1 cellule2 cellule2"
-    "cellule3 cellule4 cellule5"
-    "cellule6 cellule4 cellule7";
+"cellule1 cellule2 cellule2"
+"cellule3 cellule4 cellule5"
+"cellule6 cellule4 cellule7";
 
 }
+#imgarts{
+    margin-left: 250px;
+    margin-top: 12cm;
+    display:grid;
+    gap: 50px;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+    grid-template-areas:
+        "cellule1 cellule2 cellule2"
+        "cellule1 cellule3 cellule4"
+        "cellule5 cellule3 cellule6"
+        "cellule7 cellule7 cellule8"
+        ". cellule9 cellule10"
+        ". cellule11 cellule10";
+    
+    }
 section {
     display:flex;
     width:100%;
@@ -175,16 +209,22 @@ z-index:-1;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 50px 350px;
     margin-left:6cm;
-    margin-top: 3cm;
+    margin-top: 5cm;
     gap: 50px;
 }
+.gita{position: absolute;
+    width: 613px;
+    height: 858px;
+    left: 1008px;
+    top: 517px;}
 .blink{background: rgba(255, 152, 0, 1);}
 .element{
     position: absolute;
     width: 95%;
     height: 110%;
     left: 10px;
-    top: 37px;}
+    top: 37px;
+    z-index:-1;}
     .question{position: absolute;
         width: 436.43px;
         height: 251.3px;
@@ -200,3 +240,8 @@ p{position: absolute;
     font-size:300%;
     left: 130px;
     top: 2950px;}
+    .mostrear2 {position: absolute;
+width: 926px;
+height: 1417px;
+left: 100px;
+top: 2670px;}
