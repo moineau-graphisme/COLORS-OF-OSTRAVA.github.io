@@ -6,7 +6,7 @@ body{
 
 .header{
     place-items:center;
-   margin-top: 1cm;
+   margin-top: 0,5cm;
    margin-left: 20%;
    margin-right: 20%;
    padding: 15px;
@@ -17,9 +17,16 @@ body{
     grid-template-columns: repeat(4,1fr);
     font-size: 36px;
 }
-a{color: black;
-text-decoration: none;}
-a:hover{color: blanchedalmond;}
+a{color: black;  
+text-decoration: none;
+font-weight: 200; 
+transition: font-weight .2s ease-in-out;}
+.be-bold {
+    font-weight: 900;
+}
+a:hover{color: blanchedalmond;
+font-weight: 900;
+transition-duration:0,5s;}
 .center{
     display: block;
     margin-left: auto;
@@ -32,7 +39,7 @@ text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1cm;
+    margin-top: 0,5cm;
 }
 .gif{
     position:absolute;
@@ -93,6 +100,20 @@ border-radius: 20px;}
     left: 770px;
     top: 1030px;
 color: rgb(255, 255, 255);}
+.artistall{   position: absolute;
+    width: 1085px;
+    height: 2200px;
+    left: 270px;
+    top: 1430px;}
+    .more{position: absolute;
+        width: 233px;
+        height: 222px;
+        left: 1050px;
+        top: 500px;
+        }
+        #col{column-count: 2;
+            }
+
 
 .bloc1 {
     grid-area: cellule1;
@@ -148,7 +169,8 @@ section {
     #crop3 {
         width:350px;
         height:750px;
-        object-fit: cover;}
+        object-fit: cover;
+   }
 #imgart{
 margin-left: 250px;
 margin-top: 10cm;
@@ -189,6 +211,7 @@ section {
   }
 .imgsise{max-width: 100%;}
 .block{background: rgba(255, 152, 0, 1);}
+
 .blockb{
 position: absolute;
 width: 100%;
@@ -202,13 +225,13 @@ z-index:-1;
     width: 269px;
     height: 222px;
     left: 1100px;
-    top: 2150px;
+    top: 2100px;
 }
 .interested{
     display: grid;
     grid-template-columns: 350px 350px 350px;
     grid-template-rows: 50px 350px;
-    margin-left:6cm;
+    margin-left:5cm;
     margin-top: 5cm;
     gap: 50px;
 }
@@ -221,14 +244,14 @@ z-index:-1;
 .element{
     position: absolute;
     width: 95%;
-    height: 110%;
+    height: 120%;
     left: 10px;
     top: 37px;
     z-index:-1;}
     .question{position: absolute;
         width: 436.43px;
         height: 251.3px;
-        left: 550px;
+        left: 580px;
         top: 150px;}
 
 p{position: absolute;

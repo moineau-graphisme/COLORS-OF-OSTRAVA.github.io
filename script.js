@@ -20,3 +20,9 @@ function load_js(){
         }, 950);
     }
 }
+
+$(function () {
+    $('a').on('click', function () {
+        $(this).toggleClass('be-bold');
+    });
+});
