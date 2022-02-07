@@ -3,7 +3,8 @@ body{
     text-transform: uppercase;
     background: rgba(243, 203, 80, 1);
 }
-
+#logo{height:25%;
+width:25%;}
 .header{
     place-items:center;
    margin-top: 0,5cm;
@@ -171,6 +172,7 @@ section {
         height:750px;
         object-fit: cover;
    }
+
 #imgart{
 margin-left: 250px;
 margin-top: 10cm;
@@ -215,7 +217,7 @@ section {
 .blockb{
 position: absolute;
 width: 100%;
-height: 1000px;
+height: 925px;
 left: 0px;
 top: 2600px;
 background: rgb(255, 255, 255);
