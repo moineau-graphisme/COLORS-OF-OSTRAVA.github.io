@@ -2,9 +2,10 @@ body{
     font-family: 'Mulish', sans-serif;
     text-transform: uppercase;
     background: rgba(243, 203, 80, 1);
+    background-image: image();
 }
-#logo{height:25%;
-width:25%;}
+#logo{height:20%;
+width:20%;}
 .header{
     place-items:center;
    margin-top: 0,5cm;
@@ -47,23 +48,28 @@ text-align: center;
     width: 60%;
     height: 60%;
     left: 330px;
-    top: 260px;
+    top: 200px;
     display: none;
 }
+.title{position: absolute;
+    height: 400px;
+    left: 640px;
+    top: 790px;
+font-size: 250%;}
 .line{border: 17px solid #FFFFFF;
     position: absolute;
     width: 275px;
     height: 0px;
     left: 178.5px;
-    top: 450px;
+    top: 440px;
 border-radius: 20px;
 }
 .mask{  
     position: absolute;
     width: 325px;
-    height: 50%;
+    height: 400px;
     left: 180px;
-    top: 370px;
+    top: 350px;
     transition: all 0.75s;
 opacity:0%;}
 .mask:hover{
@@ -74,7 +80,7 @@ position: absolute;
 width: 275px;
 height: 0px;
 left: 1232px;
-top: 450px;
+top: 440px;
 border: 17px solid #FFFFFF;
 border-radius: 20px;}
 .linee{position: absolute;
@@ -96,7 +102,7 @@ border-radius: 20px;}
         width: 45%;
         height: 90%;
         left: 923px;
-        top: 2700px;}
+        top: 2600px;}
 .artist{   position: absolute;
     left: 770px;
     top: 1030px;
@@ -217,9 +223,9 @@ section {
 .blockb{
 position: absolute;
 width: 100%;
-height: 925px;
+height: 1000px;
 left: 0px;
-top: 2600px;
+top: 2500px;
 background: rgb(255, 255, 255);
 z-index:-1;
 }
@@ -260,13 +266,13 @@ p{position: absolute;
     width: 580px;
     height: 400px;
     left: 130px;
-    top: 3100px;}
+    top: 3000px;}
 .Ostrava{position: absolute;
     font-size:300%;
     left: 130px;
-    top: 2950px;}
+    top: 2850px;}
     .mostrear2 {position: absolute;
 width: 926px;
 height: 1417px;
 left: 100px;
-top: 2670px;}
+top: 2570px;}
